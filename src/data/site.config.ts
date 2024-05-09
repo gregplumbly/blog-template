@@ -9,8 +9,8 @@ interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-	author: 'DanielCG', // Site author
-	title: 'Astro Theme OpenBlog', // Site title.
+	author: 'CA', // Site author
+	title: 'Create Academy - Studio Notes', // Site title.
 	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', // Description to display in the meta tags
 	lang: 'en-GB',
 	ogLocale: 'en_GB',
