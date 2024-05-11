@@ -6,15 +6,6 @@ import MenuIcon from './icons/MenuIcon.astro'
 import Search from '@/components/Search'
 import TagIcon from './icons/TagIcon.astro'
 import ToggleTheme from './ToggleTheme.astro'
-
-// ADD YOUR SOCIAL NETWORKS HERE
-const SOCIALNETWORKS = [
-	{
-		name: 'Twitter',
-		url: 'https://github.com/danielcgilibert/blog-template',
-		icon: TwitterIcon
-	}
-]
 ---
 
 <!-- <div class='flex gap-3 md:pl-3 bg-red-100 justify-end' transition:persist='navbar'>
@@ -27,17 +18,11 @@ const SOCIALNETWORKS = [
 	  <span class='sr-only'>Show Menu</span>
 	</button>
   </div> -->
-<header class='relative flex flex-col items-center justify-between h-12 font-semibold'>
+<header class='relative flex flex-col items-center justify-between h-12'>
 	<a href='/'>
-		<div
-			class='text-6xl text-center leading-[72px] text-slate-900 max-md:text-4xl font-caBrandonGrotesque'
-		>
-			Studio Notes
-		</div>
+		<div class='text-6xl text-center text-slate-900 max-md:text-4xl'>Studio Notes</div>
 	</a>
-	<div
-		class='font-serif mt-4 text-lg text-center text-yellow-700 font-[420] tracking-[2.7px] max-md:mt-10 font-custom'
-	>
+	<div class='mt-4 text-lg text-center text-yellow-700 font-[420] tracking-[2.7px] max-md:mt-10'>
 		EXPLORE BY CATEGORY
 	</div>
 	<!-- <div id='astro-header-drawer' class='shadow rounded-l-lg md:bg-transparent dark:md:bg-transparent bg-white dark:bg-\[#0a0910\] md:shadow-none md:rounded-none md:border-none md:h-auto md:static absolute transition-transform duration-300 ease-in translate-x-96 md:translate-x-0 top-12 -right-5 pl-4 pt-6 pb-4 md:p-0 h-\[200px\] w-\[200px\] z-50' >

@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-	/* body {
-		transition: background-color 0.5s ease;
-	} */
+	body {
+		font-family: 'CaBrandonGroteque';
+	}
 	@font-face {
 		font-family: 'CaBrandonGroteque';
 		font-style: normal;
