@@ -10,8 +10,13 @@ module.exports = {
 				white: '#f8f9fa'
 			},
 			fontFamily: {
-				body: ['CaBrandonGrotesque', ...defaultTheme.fontFamily.sans]
-			},
+				serif: ['CaBrandonGrotesque', ...defaultTheme.fontFamily.serif],
+			  },
+      		fontWeight: {
+       			 light: '300',
+       			 regular: '400',
+       			 medium: '500',
+      		},
 			gridTemplateColumns: {
 				list: 'repeat(auto-fill, minmax(400px, max-content))'
 			}
