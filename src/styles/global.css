@@ -3,17 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-	body {
-		font-family: 'CaBrandonGroteque';
-	}
-	@font-face {
-		font-family: 'CaBrandonGroteque';
-		font-style: normal;
-		font-weight: 400;
-		font-display: block; /* This property will help us not flash unstyled text for a couple hundred milliseconds, and then it would act like font-display: swap */
-		src: url('/fonts/CaBrandonGroteque.woff2') format('woff2');
-	  }
-
+	
 	.prose code {
 		@apply text-base;
 	}

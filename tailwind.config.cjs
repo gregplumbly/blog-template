@@ -6,17 +6,13 @@ module.exports = {
 	content: ['./src/**/*.{astro,html,js,md,mdx,ts}'],
 	theme: {
 		extend: {
+			fontFamily: {
+				lora: "'Lora', serif"
+			},
 			colors: {
 				white: '#f8f9fa'
 			},
-			fontFamily: {
-				serif: ['CaBrandonGrotesque', ...defaultTheme.fontFamily.serif],
-			  },
-      		fontWeight: {
-       			 light: '300',
-       			 regular: '400',
-       			 medium: '500',
-      		},
+			
 			gridTemplateColumns: {
 				list: 'repeat(auto-fill, minmax(400px, max-content))'
 			}
